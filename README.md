@@ -24,3 +24,6 @@
   <img src="https://img.shields.io/badge/LLM-RAG%20%7C%20Agent-00BFFF?style=flat&logo=openai&logoColor=white" alt="LLM"/>
   <img src="https://img.shields.io/badge/OS-Kali-557C94?style=flat&logo=kalilinux&logoColor=white" alt="Kali"/>
 </p>
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Quote"/>
+</p>
