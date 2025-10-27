@@ -4,15 +4,11 @@
   </a>
 </h1>
 
+<h2 align="center">👋 Hello World, I'm <strong>XXXClark</strong></h2>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/87802328/236622954-86daa7cd-3840-4bee-b934-868fffb7f3b9.svg" width="420"/>
-</p>
-
-<h2 align="center">👋 你好世界，我是 <strong>XXXClark</strong></h2>
-<p align="center">
-  🎓 计算机科学硕士在读 · 山城重庆<br>
-  🔧 Java 开发 | 深度学习 | 大模型应用开发<br>
-  🐉 Kali Linux 玩家 | 网络安全爱好者
+  🎓 M.S. in Computer Science · Chongqing, China<br>
+  🔧 Java Dev | Deep Learning | LLM Applications<br>
+  🐉 Kali Linux Explorer | Cyber-Security Enthusiast
 </p>
 
 <p align="center">
@@ -23,8 +19,4 @@
   <img src="https://img.shields.io/badge/AI-DeepLearning-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="DeepLearning"/>
   <img src="https://img.shields.io/badge/LLM-RAG%20%7C%20Agent-00BFFF?style=flat&logo=openai&logoColor=white" alt="LLM"/>
   <img src="https://img.shields.io/badge/OS-Kali-557C94?style=flat&logo=kalilinux&logoColor=white" alt="Kali"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=XXXClark&label=Profile%20Views" alt="Profile Views"/>
 </p>
