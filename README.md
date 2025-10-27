@@ -4,6 +4,10 @@
   </a>
 </h1>
 
+<p align="center">
+  <img src="https://youke1.picui.cn/s1/2025/10/27/68ff5121c7a11.jpg" width="240" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.15);" alt="Profile Photo"/>
+</p>
+
 <h2 align="center">👋 Hello World, I'm <strong>XXXClark</strong></h2>
 <p align="center">
   🎓 M.S. in Computer Science · Chongqing, China<br>
