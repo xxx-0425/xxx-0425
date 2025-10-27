@@ -16,21 +16,13 @@
 </p>
 
 <p align="center">
-  
   <a href="mailto:clarkakaxxx@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  
   <a href="https://bento.me/xxx-0425"><img src="https://img.shields.io/badge/Blog-0078D4?style=flat&logo=wordpress&logoColor=white" alt="Blog"/></a>
-  
   <img src="https://img.shields.io/badge/Language-Java-ED8B00?style=flat&logo=java&logoColor=white" alt="Java"/>
-  
   <img src="https://img.shields.io/badge/Framework-Spring-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring"/>
-  
   <img src="https://img.shields.io/badge/AI-DeepLearning-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="DeepLearning"/>
-  
   <img src="https://img.shields.io/badge/LLM-RAG%20%7C%20Agent-00BFFF?style=flat&logo=openai&logoColor=white" alt="LLM"/>
-  
   <img src="https://img.shields.io/badge/OS-Kali-557C94?style=flat&logo=kalilinux&logoColor=white" alt="Kali"/>
-  
 </p>
 
 <p align="center">
