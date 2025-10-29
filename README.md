@@ -8,7 +8,7 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Quote"/>
 </p>
 
-<h2 align="center">👋 Hello World, I'm <strong>XXXClark</strong></h2>
+<h2 align="center">👋 Hi there, I'm <strong>XXXClark</strong></h2>
 <p align="center">
   🎓 M.S. in Computer Science · Chongqing, China<br>
   🔧 Java Dev | Deep Learning | LLM Applications<br>
