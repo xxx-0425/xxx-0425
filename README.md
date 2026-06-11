@@ -1,55 +1,89 @@
-<h1 align="center">
+<div align="center">
   <a href="https://xxx-0425.github.io">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Hi%2C+I'm+Zhang+Qiang;Build+Agents+that+think.;Ship+systems+that+run.&center=true&size=27&width=480&height=45&vCenter=true&color=2DE2E6&duration=2500&pause=600">
+    <img src="assets/banner.svg" width="100%" alt="张强 — AI Agent × Full-Stack Engineer"/>
   </a>
-</h1>
+</div>
 
-<p align="center">
-  🎓 计算机硕士在读 @ 重庆理工大学 · 研究方向:深度学习图像分析(两篇论文在审)<br>
-  💼 AI Agent / 全栈开发 · 独立完成过从开发到上线运营的商业项目<br>
-  🌊 个人主页:<a href="https://xxx-0425.github.io">xxx-0425.github.io</a>(WebGL 流体,值得一逛)
-</p>
+<br/>
 
-<p align="center">
-  <a href="mailto:clarkakaxxx@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://xxx-0425.github.io"><img src="https://img.shields.io/badge/Portfolio-06080F?style=flat&logo=githubpages&logoColor=2DE2E6" alt="Portfolio"/></a>
-  <a href="https://bento.me/xxx-0425"><img src="https://img.shields.io/badge/Bento-768CFF?style=flat&logo=bento&logoColor=white" alt="Bento"/></a>
-</p>
+<div align="center">
+  <a href="https://xxx-0425.github.io"><img src="https://img.shields.io/badge/🌊_Portfolio-xxx--0425.github.io-06080f?style=for-the-badge&labelColor=06080f&color=2de2e6" alt="Portfolio"/></a>
+  <a href="mailto:clarkakaxxx@gmail.com"><img src="https://img.shields.io/badge/✉️_Mail-clarkakaxxx@gmail.com-06080f?style=for-the-badge&labelColor=06080f&color=ff3d81" alt="Mail"/></a>
+  <a href="https://bento.me/xxx-0425"><img src="https://img.shields.io/badge/🍱_Bento-xxx--0425-06080f?style=for-the-badge&labelColor=06080f&color=7b5cff" alt="Bento"/></a>
+</div>
 
----
+<br/>
 
-### 🛠 我平时在用的
+```console
+zq@earth ~ % whoami
+张强 / Zhang Qiang — M.S. in CS @ CQUT (2024 → 2027)
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Milvus-00A1EA?style=flat&logo=milvus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
-</p>
+zq@earth ~ % cat focus.txt
+agents/    LangGraph 工作流编排 · RAG · 多步检索与反思
+vision/    裂缝分割 · Mamba / Transformer · 两篇论文在审
+shipping/  Spring Boot · FastAPI · Vue — 小程序「LuYea户外」已上线运营
 
-### 🚀 在做 / 做过的
+zq@earth ~ % uptime
+ coding since 2020, reads English docs for fun, ships things that run
+```
 
-|  | 项目 | 简介 | 技术 |
-|---|---|---|---|
-| 🔍 | **InsightForge** | 多源智能调研 Agent:LangGraph 工作流编排,Web + RAG 混合检索,自动补充检索,SSE 流式输出研报 | Python · LangGraph · FastAPI · Milvus · Vue 3 |
-| 🏕 | **漉野户外** | 已上线运营的户外交易与装备租赁平台,微信小程序 + 管理后台 + 服务端,完整的订单/库存/支付/售后闭环 | Spring Boot · MySQL · UniApp · 微信支付 V3 |
-| 📄 | **MAC-Net / LDSCNet** | 两篇裂缝分割方向论文(在审):Mamba 辅助特征提取的频域增强网络 & 轻量化方向条带耦合网络 | PyTorch · Mamba · CNN |
+<br/>
 
-### 📊 GitHub
+## ⚡ Projects
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=xxx-0425&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06080f&title_color=2de2e6&icon_color=ff3d81" alt="stats"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxx-0425&layout=compact&theme=tokyonight&hide_border=true&bg_color=06080f&title_color=2de2e6" alt="langs"/>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🔍 InsightForge</h3>
+      <p align="center"><sub>多源智能调研 Agent</sub></p>
+      <p>基于 <b>LangGraph</b> 的调研工作流:问题分析 → Web/RAG 混合检索 → 相关性评分与低质过滤 → 不足时<b>自动补充检索</b> → SSE 流式生成带引用来源的研报。</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-Milvus-00A1EA?style=flat-square&logo=milvus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🏕 漉野户外</h3>
+      <p align="center"><sub>已上线运营的交易与装备租赁平台</sub></p>
+      <p>独立交付的完整商业项目:小程序 + 管理后台 + 服务端。<b>微信支付 V3</b> 回调验签/防重/退款闭环,事务化库存扣减回补,团购原子并发控制与定时任务调度。</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-UniApp-2B9939?style=flat-square&logo=wechat&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">📄 MAC-Net &amp; LDSCNet <sub><i>(under review)</i></sub></h3>
+      <p align="center">两篇路面裂缝分割论文 — Mamba 辅助特征提取的频域增强网络 / 面向边缘设备的轻量化方向条带耦合网络
+      <br/>
+      <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-Mamba-7b5cff?style=flat-square"/>
+      <img src="https://img.shields.io/badge/-Semantic_Segmentation-2de2e6?style=flat-square&logoColor=black"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <i>习惯读英文文档,喜欢把想法做成能跑起来的东西。</i>
-</p>
+<br/>
+
+## 📊 Stats
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=xxx-0425&show_icons=true&hide_border=true&bg_color=06080f&title_color=2de2e6&icon_color=ff3d81&text_color=9aa3b5&ring_color=2de2e6" alt="stats"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=xxx-0425&hide_border=true&background=06080f&ring=2de2e6&fire=ff3d81&currStreakLabel=2de2e6&sideLabels=9aa3b5&currStreakNum=e8ecf4&sideNums=e8ecf4&dates=5a6275" alt="streak"/>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/xxx-0425/xxx-0425/output/snake.svg" alt="contribution snake" width="100%"/>
+</div>
+
+<div align="center">
+  <sub><i>「 build agents that think · ship systems that run 」</i></sub>
+</div>

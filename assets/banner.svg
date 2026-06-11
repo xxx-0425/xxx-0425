@@ -1,0 +1,73 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eafcff"/>
+      <stop offset="55%" stop-color="#2de2e6"/>
+      <stop offset="100%" stop-color="#ff3d81"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2de2e6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2de2e6"/>
+      <stop offset="100%" stop-color="#ff3d81" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1000" height="320" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- •r -->
+    <rect width="1000" height="320" fill="#06080f"/>
+
+    <!-- A¨„yrâ -->
+    <circle cx="180" cy="90" r="170" fill="#2de2e6" opacity="0.34" filter="url(#blur)">
+      <animate attributeName="cx" values="180;760;320;180" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="90;220;40;90" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="830" cy="240" r="150" fill="#ff3d81" opacity="0.27" filter="url(#blur)">
+      <animate attributeName="cx" values="830;240;680;830" dur="26s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="240;80;280;240" dur="26s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="300" r="130" fill="#7b5cff" opacity="0.30" filter="url(#blur)">
+      <animate attributeName="cx" values="520;880;120;520" dur="32s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="300;60;200;300" dur="32s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ÆQ< -->
+    <g stroke="#ffffff" stroke-opacity="0.045">
+      <path d="M0 80h1000M0 160h1000M0 240h1000"/>
+      <path d="M125 0v320M250 0v320M375 0v320M500 0v320M625 0v320M750 0v320M875 0v320"/>
+    </g>
+
+    <!-- ÌoÏ¹'W -->
+    <text x="500" y="208" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="190" font-weight="bold" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.5"> :</text>
+
+    <!-- ;˜ -->
+    <text x="500" y="148" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="14"> :</text>
+
+    <!-- o˜ -->
+    <text x="500" y="196" text-anchor="middle" font-family="'Courier New', monospace" font-size="17" fill="#9aa3b5" letter-spacing="7">AI AGENT &#215; FULL-STACK ENGINEER</text>
+
+    <!-- Èïí + I -->
+    <text x="500" y="244" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#2de2e6" letter-spacing="1">$ build agents that think &#183; ship systems that run</text>
+    <rect x="789" y="232" width="9" height="15" fill="#2de2e6">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- •èI& -->
+    <rect x="200" y="290" width="600" height="2" fill="url(#lineGrad)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ¹F -->
+    <rect x="0.5" y="0.5" width="999" height="319" rx="14" stroke="#ffffff" stroke-opacity="0.1"/>
+  </g>
+</svg>
