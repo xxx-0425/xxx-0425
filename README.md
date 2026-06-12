@@ -45,15 +45,56 @@ backend systems, and the stubborn last mile between a convincing demo and a depe
 
 <br/>
 
-## SELECTED TRANSMISSIONS
+## SELECTED CASEWORK
 
-| Work | Engineering focus |
-| --- | --- |
-| **Commerce integration platform** | Designed a modular Java API and Vue operations console around products, orders, customers, logistics, after-sales, callback processing, and wallet flows. |
-| **Spring Boot 3 foundation** | Built a reusable full-stack starting point with JWT authentication, RBAC authorization, MyBatis-Plus, OpenAPI, environment isolation, and Docker deployment. |
-| **Award query system** | Turned spreadsheet-based result management into a Spring Boot and Vue workflow with imports, public queries, QR-code management, and administrative settings. |
-| **Desktop workflow tools** | Automated media composition and certificate generation with FFmpeg, spreadsheets, image templates, and configurable desktop interfaces. |
-| **[MAC-Net](https://github.com/xxx-0425/MACNet)** | Exploring Mamba-assisted feature extraction and frequency enhancement for road-crack segmentation. |
+<table>
+  <tr>
+    <td width="36%" valign="top">
+      <h3>01 / Agentic Research Engine</h3>
+      <p><b>Research that knows when the evidence is not good enough.</b></p>
+      <code>Python · LangGraph · RAG · FastAPI</code>
+    </td>
+    <td width="64%" valign="top">
+      <p>Built a multi-agent research workflow that turns an open-ended question into a source-grounded report through planning, hybrid retrieval, evidence judging, analysis, reflection, and writing.</p>
+      <p><b>Key decisions:</b> carry evidence through a typed shared state; keep retrieval, judgment, analysis, and writing as separate responsibilities; bind claims to source IDs; route incomplete research back into targeted supplementary search.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="36%" valign="top">
+      <h3>02 / Commerce Operations Hub</h3>
+      <p><b>One control surface for a fragmented commerce lifecycle.</b></p>
+      <code>Java · Spring Boot · Vue · MySQL</code>
+    </td>
+    <td width="64%" valign="top">
+      <p>Designed the integration layer between third-party commerce APIs and internal operations. The system unifies product, order, logistics, after-sales, customer, and wallet workflows behind a modular service boundary.</p>
+      <p><b>Key decisions:</b> combine scheduled reconciliation with callback-driven updates; preserve status histories and callback logs for traceability; model wallet balances, freezes, and transactions as separate concerns.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="36%" valign="top">
+      <h3>03 / Authorization-First Foundation</h3>
+      <p><b>A reusable baseline for business systems that need control, not just CRUD.</b></p>
+      <code>Spring Security · JWT · RBAC · Vue</code>
+    </td>
+    <td width="64%" valign="top">
+      <p>Built a full-stack application foundation around authentication, authorization, observability, and environment isolation so new products can begin with operational essentials already in place.</p>
+      <p><b>Key decisions:</b> database-backed permissions; automatic synchronization of permission codes from <code>@PreAuthorize</code>; consistent API responses and exception handling; OpenAPI, health checks, and Docker from day one.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="36%" valign="top">
+      <h3>04 / Result Distribution Platform</h3>
+      <p><b>Turning spreadsheet operations into a controlled public service.</b></p>
+      <code>Spring Boot · Vue · JPA · MySQL</code>
+    </td>
+    <td width="64%" valign="top">
+      <p>Reframed a manual result-query process as a focused web product: administrators import structured records and manage claim channels, while participants receive a simple public lookup experience.</p>
+      <p><b>Key decisions:</b> access and refresh token separation with rotation; login lockout and endpoint rate limits; batch imports; isolated development and production configuration.</p>
+    </td>
+  </tr>
+</table>
+
+> **Research track:** [MAC-Net](https://github.com/xxx-0425/MACNet) explores Mamba-assisted feature extraction and frequency enhancement for road-crack segmentation.
 
 <br/>
 
