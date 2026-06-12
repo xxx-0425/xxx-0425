@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://xxx-0425.github.io">
-    <img src="assets/banner.svg" width="100%" alt="XXX Clark — Agents, Vision, Products"/>
+    <img src="assets/banner-clark.svg" width="100%" alt="XXX Clark — Agents, Vision, Products"/>
   </a>
 </div>
 
