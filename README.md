@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://xxx-0425.github.io">
-    <img src="assets/banner.svg" width="100%" alt="ZQ — Agents, Vision, Products"/>
+    <img src="assets/banner.svg" width="100%" alt="XXX Clark — Agents, Vision, Products"/>
   </a>
 </div>
 
@@ -16,7 +16,7 @@
 
 ## NOT JUST MODELS. SYSTEMS.
 
-I am **Zhang Qiang**, a computer science graduate student and product-minded engineer in Chongqing.
+I am **XXX Clark**, a computer science graduate student and product-minded engineer in Chongqing.
 I work where AI research meets software that people can actually use: agent workflows, vision models,
 backend systems, and the stubborn last mile between a convincing demo and a dependable product.
 
