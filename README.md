@@ -47,30 +47,22 @@ backend systems, and the stubborn last mile between a convincing demo and a depe
 
 ## SELECTED TRANSMISSIONS
 
-| Work | What is actually there | Evidence |
-| --- | --- | --- |
-| **Commerce integration platform** | Java API and Vue admin console covering products, orders, customers, logistics, after-sales, callbacks, and wallets. | `PRIVATE BUILD · 82 COMMITS` |
-| **Spring Boot 3 starter** | Reusable backend and frontend foundation with JWT, RBAC, MyBatis-Plus, OpenAPI, multi-environment config, and Docker. | `PRIVATE BUILD · 14 COMMITS` |
-| **Award query system** | Spring Boot API and Vue admin workflow for Excel imports, result queries, QR-code management, and settings. | `PRIVATE BUILD` |
-| **Desktop workflow tools** | FFmpeg video composer plus a configurable batch certificate generator driven by spreadsheets and image templates. | `PRIVATE BUILDS` |
-| **[MAC-Net](https://github.com/xxx-0425/MACNet)** | Research direction: Mamba-assisted feature extraction for frequency-enhanced crack segmentation. | `PUBLIC RESEARCH NOTE` |
-
-<sub>Forks are intentionally excluded. Private repositories are summarized without exposing their source.</sub>
+| Work | Engineering focus |
+| --- | --- |
+| **Commerce integration platform** | Designed a modular Java API and Vue operations console around products, orders, customers, logistics, after-sales, callback processing, and wallet flows. |
+| **Spring Boot 3 foundation** | Built a reusable full-stack starting point with JWT authentication, RBAC authorization, MyBatis-Plus, OpenAPI, environment isolation, and Docker deployment. |
+| **Award query system** | Turned spreadsheet-based result management into a Spring Boot and Vue workflow with imports, public queries, QR-code management, and administrative settings. |
+| **Desktop workflow tools** | Automated media composition and certificate generation with FFmpeg, spreadsheets, image templates, and configurable desktop interfaces. |
+| **[MAC-Net](https://github.com/xxx-0425/MACNet)** | Exploring Mamba-assisted feature extraction and frequency enhancement for road-crack segmentation. |
 
 <br/>
 
-## CURRENT FREQUENCY
+## HOW I BUILD
 
-```text
-RESEARCH  ███████████████████░  crack segmentation + efficient vision
-BUILDING  █████████████████████  agentic research + retrieval systems
-SHIPPING  ██████████████████░░░  full-stack products that run in the real world
-```
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=xxx-0425&show_icons=true&hide_border=true&bg_color=111111&title_color=CCFF00&icon_color=2455FF&text_color=F4F4F0&ring_color=FF4D00" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxx-0425&layout=compact&hide_border=true&bg_color=111111&title_color=CCFF00&text_color=F4F4F0" alt="Top languages"/>
-</div>
+- Model the failure paths before polishing the happy path.
+- Keep boundaries explicit: domain logic, integrations, persistence, and interface.
+- Treat research claims as hypotheses until experiments and implementation agree.
+- Prefer a small system that can be understood over a large one that can only be admired.
 
 <br/>
 
