@@ -36,8 +36,8 @@ backend systems, and the stubborn last mile between a convincing demo and a depe
     </td>
     <td width="33%" valign="top">
       <h2>03 / PRODUCTS</h2>
-      <p><b>Systems that survive production.</b></p>
-      <p>Payment callbacks, transactional inventory, concurrency control, scheduled jobs, mini programs, admin panels, and APIs.</p>
+      <p><b>Ideas turned into working software.</b></p>
+      <p>Java APIs, Vue admin panels, WeChat mini programs, desktop utilities, data workflows, and the details that connect them.</p>
       <code>Java · Spring Boot · Vue · Redis</code>
     </td>
   </tr>
@@ -47,13 +47,15 @@ backend systems, and the stubborn last mile between a convincing demo and a depe
 
 ## SELECTED TRANSMISSIONS
 
-| Signal | What it does | Status |
+| Work | What is actually there | Evidence |
 | --- | --- | --- |
-| **InsightForge** | Multi-source research agent that plans, retrieves, filters, reflects, and produces cited reports. | `BUILDING` |
-| **LuYea Outdoor** | Independently delivered commerce and equipment-rental platform with WeChat Pay V3 and transactional inventory. | `SHIPPED` |
-| **[MAC-Net](https://github.com/xxx-0425/MACNet)** | Frequency-enhanced road-crack segmentation network with Mamba-assisted feature extraction. | `RESEARCH` |
-| **[hello-agents](https://github.com/xxx-0425/hello-agents)** | A practical, from-scratch guide to understanding and building intelligent agents. | `OPEN SOURCE` |
-| **[third-party-mall-api](https://github.com/xxx-0425/third-party-mall-api)** | Integration-heavy Java commerce backend covering orders, after-sales, logistics, and third-party APIs. | `PRIVATE` |
+| **Commerce integration platform** | Java API and Vue admin console covering products, orders, customers, logistics, after-sales, callbacks, and wallets. | `PRIVATE BUILD · 82 COMMITS` |
+| **Spring Boot 3 starter** | Reusable backend and frontend foundation with JWT, RBAC, MyBatis-Plus, OpenAPI, multi-environment config, and Docker. | `PRIVATE BUILD · 14 COMMITS` |
+| **Award query system** | Spring Boot API and Vue admin workflow for Excel imports, result queries, QR-code management, and settings. | `PRIVATE BUILD` |
+| **Desktop workflow tools** | FFmpeg video composer plus a configurable batch certificate generator driven by spreadsheets and image templates. | `PRIVATE BUILDS` |
+| **[MAC-Net](https://github.com/xxx-0425/MACNet)** | Research direction: Mamba-assisted feature extraction for frequency-enhanced crack segmentation. | `PUBLIC RESEARCH NOTE` |
+
+<sub>Forks are intentionally excluded. Private repositories are summarized without exposing their source.</sub>
 
 <br/>
 
