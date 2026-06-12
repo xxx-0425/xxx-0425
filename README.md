@@ -50,8 +50,8 @@ backend systems, and the stubborn last mile between a convincing demo and a depe
 <table>
   <tr>
     <td width="36%" valign="top">
-      <h3>01 / Agentic Research Engine</h3>
-      <p><b>Research that knows when the evidence is not good enough.</b></p>
+      <h3>01 / InsightForge</h3>
+      <p><b>An agentic research engine that knows when the evidence is not good enough.</b></p>
       <code>Python · LangGraph · RAG · FastAPI</code>
     </td>
     <td width="64%" valign="top">
