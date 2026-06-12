@@ -1,89 +1,78 @@
 <div align="center">
   <a href="https://xxx-0425.github.io">
-    <img src="assets/banner.svg" width="100%" alt="张强 — AI Agent × Full-Stack Engineer"/>
+    <img src="assets/banner.svg" width="100%" alt="ZQ — Agents, Vision, Products"/>
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://xxx-0425.github.io"><img src="https://img.shields.io/badge/🌊_Portfolio-xxx--0425.github.io-06080f?style=for-the-badge&labelColor=06080f&color=2de2e6" alt="Portfolio"/></a>
-  <a href="mailto:clarkakaxxx@gmail.com"><img src="https://img.shields.io/badge/✉️_Mail-clarkakaxxx@gmail.com-06080f?style=for-the-badge&labelColor=06080f&color=ff3d81" alt="Mail"/></a>
-  <a href="https://bento.me/xxx-0425"><img src="https://img.shields.io/badge/🍱_Bento-xxx--0425-06080f?style=for-the-badge&labelColor=06080f&color=7b5cff" alt="Bento"/></a>
+  <a href="https://xxx-0425.github.io"><img src="https://img.shields.io/badge/ENTER_THE_LAB-111111?style=for-the-badge&logo=safari&logoColor=CCFF00&labelColor=2455FF" alt="Portfolio"/></a>
+  <a href="mailto:clarkakaxxx@gmail.com"><img src="https://img.shields.io/badge/SEND_A_SIGNAL-111111?style=for-the-badge&logo=gmail&logoColor=111111&labelColor=CCFF00" alt="Email"/></a>
+  <a href="https://bento.me/xxx-0425"><img src="https://img.shields.io/badge/MORE_ABOUT_ME-111111?style=for-the-badge&logo=readme&logoColor=FFFFFF&labelColor=FF4D00" alt="Bento"/></a>
 </div>
 
 <br/>
 
-```console
-zq@earth ~ % whoami
-张强 / Zhang Qiang — M.S. in CS @ CQUT (2024 → 2027)
+## NOT JUST MODELS. SYSTEMS.
 
-zq@earth ~ % cat focus.txt
-agents/    LangGraph 工作流编排 · RAG · 多步检索与反思
-vision/    裂缝分割 · Mamba / Transformer · 两篇论文在审
-shipping/  Spring Boot · FastAPI · Vue — 小程序「LuYea户外」已上线运营
-
-zq@earth ~ % uptime
- coding since 2020, reads English docs for fun, ships things that run
-```
-
-<br/>
-
-## ⚡ Projects
+I am **Zhang Qiang**, a computer science graduate student and product-minded engineer in Chongqing.
+I work where AI research meets software that people can actually use: agent workflows, vision models,
+backend systems, and the stubborn last mile between a convincing demo and a dependable product.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🔍 InsightForge</h3>
-      <p align="center"><sub>多源智能调研 Agent</sub></p>
-      <p>基于 <b>LangGraph</b> 的调研工作流:问题分析 → Web/RAG 混合检索 → 相关性评分与低质过滤 → 不足时<b>自动补充检索</b> → SSE 流式生成带引用来源的研报。</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Milvus-00A1EA?style=flat-square&logo=milvus&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
-      </p>
+    <td width="33%" valign="top">
+      <h2>01 / AGENTS</h2>
+      <p><b>Research that can reason.</b></p>
+      <p>LangGraph workflows, hybrid Web/RAG retrieval, relevance scoring, reflection loops, streaming reports, and source-grounded answers.</p>
+      <code>Python · LangGraph · FastAPI · Milvus</code>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🏕 漉野户外</h3>
-      <p align="center"><sub>已上线运营的交易与装备租赁平台</sub></p>
-      <p>独立交付的完整商业项目:小程序 + 管理后台 + 服务端。<b>微信支付 V3</b> 回调验签/防重/退款闭环,事务化库存扣减回补,团购原子并发控制与定时任务调度。</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-UniApp-2B9939?style=flat-square&logo=wechat&logoColor=white"/>
-      </p>
+    <td width="33%" valign="top">
+      <h2>02 / VISION</h2>
+      <p><b>Models that see the edge cases.</b></p>
+      <p>Road-crack segmentation with Mamba, frequency enhancement, lightweight directional features, and deployment-aware experiments.</p>
+      <code>PyTorch · Mamba · Segmentation</code>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="center">📄 MAC-Net &amp; LDSCNet <sub><i>(under review)</i></sub></h3>
-      <p align="center">两篇路面裂缝分割论文 — Mamba 辅助特征提取的频域增强网络 / 面向边缘设备的轻量化方向条带耦合网络
-      <br/>
-      <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-      <img src="https://img.shields.io/badge/-Mamba-7b5cff?style=flat-square"/>
-      <img src="https://img.shields.io/badge/-Semantic_Segmentation-2de2e6?style=flat-square&logoColor=black"/>
-      </p>
+    <td width="33%" valign="top">
+      <h2>03 / PRODUCTS</h2>
+      <p><b>Systems that survive production.</b></p>
+      <p>Payment callbacks, transactional inventory, concurrency control, scheduled jobs, mini programs, admin panels, and APIs.</p>
+      <code>Java · Spring Boot · Vue · Redis</code>
     </td>
   </tr>
 </table>
 
 <br/>
 
-## 📊 Stats
+## SELECTED TRANSMISSIONS
+
+| Signal | What it does | Status |
+| --- | --- | --- |
+| **InsightForge** | Multi-source research agent that plans, retrieves, filters, reflects, and produces cited reports. | `BUILDING` |
+| **LuYea Outdoor** | Independently delivered commerce and equipment-rental platform with WeChat Pay V3 and transactional inventory. | `SHIPPED` |
+| **[MAC-Net](https://github.com/xxx-0425/MACNet)** | Frequency-enhanced road-crack segmentation network with Mamba-assisted feature extraction. | `RESEARCH` |
+| **[hello-agents](https://github.com/xxx-0425/hello-agents)** | A practical, from-scratch guide to understanding and building intelligent agents. | `OPEN SOURCE` |
+| **[third-party-mall-api](https://github.com/xxx-0425/third-party-mall-api)** | Integration-heavy Java commerce backend covering orders, after-sales, logistics, and third-party APIs. | `PRIVATE` |
+
+<br/>
+
+## CURRENT FREQUENCY
+
+```text
+RESEARCH  ███████████████████░  crack segmentation + efficient vision
+BUILDING  █████████████████████  agentic research + retrieval systems
+SHIPPING  ██████████████████░░░  full-stack products that run in the real world
+```
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=xxx-0425&show_icons=true&hide_border=true&bg_color=06080f&title_color=2de2e6&icon_color=ff3d81&text_color=9aa3b5&ring_color=2de2e6" alt="stats"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=xxx-0425&hide_border=true&background=06080f&ring=2de2e6&fire=ff3d81&currStreakLabel=2de2e6&sideLabels=9aa3b5&currStreakNum=e8ecf4&sideNums=e8ecf4&dates=5a6275" alt="streak"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=xxx-0425&show_icons=true&hide_border=true&bg_color=111111&title_color=CCFF00&icon_color=2455FF&text_color=F4F4F0&ring_color=FF4D00" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxx-0425&layout=compact&hide_border=true&bg_color=111111&title_color=CCFF00&text_color=F4F4F0" alt="Top languages"/>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/xxx-0425/xxx-0425/output/snake.svg" alt="contribution snake" width="100%"/>
-</div>
+<br/>
 
 <div align="center">
-  <sub><i>「 build agents that think · ship systems that run 」</i></sub>
+  <b>MAKE IT THINK. MAKE IT WORK. MAKE IT MATTER.</b><br/>
+  <sub>Chongqing, China · open to research, products, and ambitious collaborations</sub>
 </div>
